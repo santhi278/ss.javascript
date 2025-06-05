@@ -862,7 +862,7 @@
 // function greet(age){
 //     console.log("i am greet");
 //     function hello(name){
-//             console.log("i am hello");
+            // console.log(`${age} and ${name}`);
             
 //     }
 //     return hello("javascript")
@@ -878,3 +878,25 @@ function div(){
     }
 }
 div()
+function div1(){
+    let b = 20
+    console.log(b);
+    
+}
+div1()
+ function greet(name){
+    console.log("i am greet");
+    function hello(age){
+        console.log(`${name} and ${age}`);
+        
+        
+    }
+    return hello("200")
+    
+    
+ }
+ greet("javascript")
+ 
+
+
+ 

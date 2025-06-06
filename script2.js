@@ -869,34 +869,87 @@
 // }
 // greet(200)
 
+// var a = 10
+// function div(){
+//     console.log(a);
+//     if(true){
+//         console.log(a);
+        
+//     }
+// }
+// div()
+// function div1(){
+//     let b = 20
+//     console.log(b);
+    
+// }
+// div1()
+//  function greet(name){
+//     console.log("i am greet");
+//     function hello(age){
+//         console.log(`${name} and ${age}`);
+        
+        
+//     }
+//     return hello("200")
+    
+    
+//  }
+//  greet("javascript")
+
+//  function hello(name){
+//     console.log("i am hello");
+//     function  greet(city){
+//         console.log(`${name} and ${city}`);
+        
+//     }
+//     return greet("coding")
+//  }
+//  hello("javascript")
+
+// function say(){
+//     console.log("i am say");
+//     function data(){
+//         console.log("i am data");
+        
+//     }
+//     return data()
+// }
+// say()
+
 var a = 10
-function div(){
-    console.log(a);
-    if(true){
-        console.log(a);
+var b = 20
+var c = 30
+var result = a>b && a>c ? "a is the biggest number" : b>a && b>c ? "b is the biggest number" : "c is the biggest number"
+console.log(result);
+
+var arr = []
+for(var i = 50; i>=1; i--){
+    if(i%2==0){
+        arr.push(i)
+        console.log(arr);
         
     }
 }
-div()
-function div1(){
-    let b = 20
-    console.log(b);
-    
-}
-div1()
- function greet(name){
-    console.log("i am greet");
-    function hello(age){
-        console.log(`${name} and ${age}`);
-        
+
+var array = [1,2,3,4,5]
+var [a,b,c,d,e] = array
+console.log(array);
+
+var str = "javascript"
+var age = 20
+console.log(`${str} and age is ${age}`);
+
+class person{
+    constructor(name,age,city){
+        this.name = name,
+        this.age = age,
+        this.city = city
+    }
+    greet(){
+        console.log(this.name,this.age,this.city);
         
     }
-    return hello("200")
-    
-    
- }
- greet("javascript")
- 
-
-
- 
+}
+var mydata = new person("javascript".split(),200,"rjy")
+mydata.greet()

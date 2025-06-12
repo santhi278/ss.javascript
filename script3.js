@@ -605,12 +605,12 @@
 // // }
 // // console.log(sum,i);
 
-// // var num1 = 6
-// // var fact = 1
-// // for(var i = 1; i<=num1; i++){
-// //     fact = fact*i
-// // }
-// // console.log(fact);
+// var num1 = 6
+// var fact = 1
+// for(var i = 1; i<=num1; i++){
+//     fact = fact*i
+// }
+// console.log(fact);
 
 
 // // var a = 19
@@ -807,14 +807,62 @@
     
 // }
 
-var a = 143
-var b = 225
-var lastdigit = a%10
-var lastdigit1 = b%10
-if(lastdigit == lastdigit1){
-    console.log("last digits are same");
+// var a = 143
+// var b = 225
+// var lastdigit = a%10
+// var lastdigit1 = b%10
+// if(lastdigit == lastdigit1){
+//     console.log("last digits are same");
+    
+// }else{
+//   console.log("last digits are not same");
+  
+// }
+
+// var a = 10
+// var b = 1
+// for(var i = 1; i<=a; i++ ){
+//     b += i
+// }
+// console.log(b);
+
+// var num = 5
+// var sum = 1
+// for(var i = 1; i<=num; i++){
+//     sum = sum*i
+// }
+// console.log(sum);
+
+// var num1 = 6
+// var fact = 1
+// for(var a = 1; a<=num1; a++){
+//     fact = fact*a
+// }
+// console.log(fact);
+
+
+// var a = 4
+// for(var i = 1; i<=10; i++){
+//     console.log(`${a} * ${i} = ${a*i}`);
+    
+// }
+ 
+var a = 10
+var b = 5
+var operator = ""
+if(operator=="*"){
+    console.log(a*b);
+    
+}else if(operator=="-"){
+    console.log(a-b);
+    
+}else if(operator=="/"){
+    console.log(a/b);
+    
+}else if(operator=="+"){
+    console.log(a+b);
     
 }else{
-  console.log("last digits are not same");
-  
+    console.log("invalid operator");
+    
 }

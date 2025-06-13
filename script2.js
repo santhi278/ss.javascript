@@ -1184,23 +1184,23 @@
 //     }
 //  }
 
-// / clousers with parameters
- function hello(name){
-    console.log("hi i am hello");
-       function greet(city){
-        console.log(` ${name} and city is ${city}`);
-        }
-        return greet("rajahmundry")
- }
- hello("javascript")
-// clousers
- function div(){
-    console.log("i am a div");
-    function   say(){
-        console.log(" hello i am say ");
-    }
-    return say()
- }
- div()
+// // / clousers with parameters
+//  function hello(name){
+//     console.log("hi i am hello");
+//        function greet(city){
+//         console.log(` ${name} and city is ${city}`);
+//         }
+//         return greet("rajahmundry")
+//  }
+//  hello("javascript")
+// // clousers
+//  function div(){
+//     console.log("i am a div");
+//     function   say(){
+//         console.log(" hello i am say ");
+//     }
+//     return say()
+//  }
+//  div()
 
  

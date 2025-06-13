@@ -847,22 +847,191 @@
     
 // }
  
-var a = 10
-var b = 5
-var operator = ""
-if(operator=="*"){
-    console.log(a*b);
+// var a = 10
+// var b = 5
+// var operator = ""
+// if(operator=="*"){
+//     console.log(a*b);
     
-}else if(operator=="-"){
-    console.log(a-b);
+// }else if(operator=="-"){
+//     console.log(a-b);
     
-}else if(operator=="/"){
-    console.log(a/b);
+// }else if(operator=="/"){
+//     console.log(a/b);
     
-}else if(operator=="+"){
-    console.log(a+b);
+// }else if(operator=="+"){
+//     console.log(a+b);
+    
+// }else{
+//     console.log("invalid operator");
+    
+// }
+
+//  let score = 100
+// if(score >= 90){
+//     console.log("Grade: A");
+    
+// }else if(score >= 75){
+//     console.log("Grade: B");
+    
+// }else if(score >= 50){
+//     console.log("Grade: C");
+    
+// }else{
+//     console.log("Grade: F");
+    
+// }
+
+
+// var score = 40
+// if(score>= 90){
+//     console.log("Grade: A");
+    
+// }else if(score >=75){
+//     console.log("Grade: B");
+    
+// }else if(score>=50){
+//     console.log("Grade: C");
+    
+// }else{
+//     console.log("FAIL");
+    
+// }
+
+// var num = 8
+// var isprime =  "i am prime number"
+// if(num%2==0){
+//     isprime = "i am not the prime number"
+// }
+// console.log(isprime);
+
+// var num1 = 153
+// var temp = num1
+// var sum = 0
+// while(temp>0){
+//     var remainder = temp%10
+//      sum +=  remainder*remainder*remainder
+//     temp = Math.floor(temp/10)
+// }
+// console.log(sum);
+
+
+// var a = 9
+// var b = 9
+// var operator = "*"
+// if(operator == "+"){
+//     console.log(a+b);
+// }else if(operator == "*"){
+//     console.log(a*b);
+// }else if(operator == "-"){
+//     console.log(a-b);
+// }else if(operator == "/"){
+//     console.log(a/b);
+// }else{
+//     console.log("invalid operator");
+// }
+
+// var a = 5
+// var fact = 1
+// for(var i = 1; i<=a; i++){
+//     fact = fact*i
+// }
+// console.log(fact);
+
+// var b = 5
+// var sum = 0
+// for(var x = 1; x<=b; x++){
+//     sum += x
+// }
+// console.log(sum);
+
+// var i = 7
+// for(var d = 1; d<=12; d++){
+//     console.log(`${i} * ${d} = ${i*d}`);
+    
+// }
+
+// var n = 183
+// var k = 533
+// var lastdigit = n%10
+// var lastdigit1 = k%10
+// if(lastdigit == lastdigit1){
+//     console.log("last digits are same number");
+    
+// }else{
+//     console.log("last digits are not same");
+    
+// }
+
+// var num4 = 7
+// var isprime = "num4 is a prime number"
+// if(num4%2==0){
+//     isprime = "num4 is not a prime number"
+// }
+// console.log(isprime);
+
+// var num = 153
+// var temp = num
+// var sum = 0
+// while(temp>0){
+//     var remainder = temp%10
+//     sum += remainder*remainder*remainder
+//     temp = Math.floor(temp/10)
+// }
+// console.log(sum);
+
+// var num1 = 1634
+// var fact = num1
+// var sum1  = 0
+// while(fact>0){
+//     var answer = fact%10
+//     sum1 += answer*answer*answer*answer
+//     fact = Math.floor(fact/10)
+// }
+// console.log(sum1);
+
+// var score = 90
+// if(score>=90){
+//     console.log("Grade: A");
+    
+// }else if(score>=75){
+//     console.log("Grade: B");
+    
+// }else if(score>=50){
+//     console.log("Grade: C");
+    
+// }else{
+//     console.log("Fail");
+    
+// }
+
+// var temparature = 25
+// if(temparature >30){
+//     console.log("it's summer");
+    
+// }else if(temparature >20){
+//     console.log("it's a nice wheather");
+    
+// }else{
+//     console.log("it's cold");
+    
+// }
+
+// var num2 = 3
+// for(var i = 1; i<=12; i++){
+//     console.log(`${num2} * ${i} = ${num2*i}`);
+    
+// }
+
+var num = -10
+if(num >0){
+    console.log("positive");
+    
+}else if(num<0){
+    console.log("negative");
     
 }else{
-    console.log("invalid operator");
+    console.log("zero");
     
 }
+
